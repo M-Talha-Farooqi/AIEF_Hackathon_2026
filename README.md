@@ -210,7 +210,7 @@ The live system keeps the STAGE approach and adapts it for real-time, multi-came
 </table>
 
 <p align="center">
-  <sub><b>University of Management and Technology (UMT)</b> · BS Software Engineering · Class of 2026<br>
+  <sub><b>University of Management and Technology (UMT)</b> · BS Software Engineering · Graduated (July 2026)<br>
   Project supervisor: <b>Dr. Syed Farooq Ali</b></sub>
 </p>
 

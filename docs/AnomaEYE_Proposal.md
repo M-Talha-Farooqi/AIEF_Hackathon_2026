@@ -5,7 +5,7 @@
 - **Proposed category:** AI in Urban Tech (smart-city infrastructure, mobility, and civic systems)
 - **Keywords:** video anomaly detection, real-time CCTV surveillance, vision-language verification, Safe City, crime detection
 - **Team:** M. Talha Farooqi (AI Engineer) · Muhammad Husnain Aslam (Backend Engineer) · Chaudhary Shoaib Hamza (Flutter Developer)
-- **Institution:** University of Management and Technology (UMT) · BS Software Engineering · Class of 2026 (graduated July 2026)
+- **Institution:** University of Management and Technology (UMT) · BS Software Engineering · Graduated (July 2026)
 - **Project supervisor:** Dr. Syed Farooq Ali
 - **Project landing page:** [www.anomaeye.com](https://www.anomaeye.com) · **Pitch deck:** [View on Canva](https://canva.link/6gh1y52uxf0r5n4)
 - **Research basis:** STAGE, under review at *Image and Vision Computing* (Elsevier)
@@ -332,7 +332,7 @@ Future improvements beyond the pilot: edge deployment so basic detection continu
 
 - **Institution:** University of Management and Technology (UMT)
 - **Degree programme:** BS Software Engineering
-- **Graduation:** Class of 2026 (graduated July 2026)
+- **Graduation:** Graduated (July 2026)
 - **Project supervisor:** Dr. Syed Farooq Ali
 
 ### Links
