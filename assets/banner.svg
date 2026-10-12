@@ -48,8 +48,8 @@
 
   <!-- title -->
   <text x="450" y="185" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="104" font-weight="800" fill="#FFFFFF" letter-spacing="-2">Anoma<tspan fill="url(#accent)">EYE</tspan></text>
-  <text x="454" y="235" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="500" fill="#C7D2FE">Real-time CCTV crime detection with verified,</text>
-  <text x="454" y="271" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="500" fill="#C7D2FE">multi-agent incident response</text>
+  <text x="454" y="235" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="500" fill="#C7D2FE">Real-time CCTV crime detection with verified alerts</text>
+  <text x="454" y="271" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="500" fill="#C7D2FE">and multi-channel incident response</text>
 
   <rect x="454" y="300" width="560" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.18"/>
   <text x="478" y="329" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" fill="#E0E7FF">AIEF 4th International AI Championship  ·  AI in Urban Tech</text>

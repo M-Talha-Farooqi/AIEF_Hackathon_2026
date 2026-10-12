@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="AnomaEYE: real-time CCTV crime detection with verified, multi-agent incident response" width="100%">
+  <img src="assets/banner.svg" alt="AnomaEYE: real-time CCTV crime detection with verified alerts and multi-channel incident response" width="100%">
 </p>
 
 <p align="center">
@@ -14,6 +14,7 @@
   <img src="https://img.shields.io/badge/AIEF-4th_International_AI_Championship-1E1B4B?style=flat-square" alt="AIEF 4th International AI Championship">
   <img src="https://img.shields.io/badge/Category-AI_in_Urban_Tech-0E7490?style=flat-square" alt="Category: AI in Urban Tech">
   <img src="https://img.shields.io/badge/Finale-24_Oct_2026_%7C_FAST--NUCES_Lahore-312E81?style=flat-square" alt="Finale: 24 October 2026, FAST-NUCES Lahore">
+  <img src="https://img.shields.io/badge/Research-STAGE_%7C_under_review_at_Image_and_Vision_Computing-FF6C00?style=flat-square&logo=elsevier&logoColor=white" alt="STAGE paper under review at Image and Vision Computing, Elsevier">
 </p>
 
 <h3 align="center">Thousands of cameras. A handful of eyes.<br>AnomaEYE watches every feed, double-checks every alarm, and gets the right person moving in seconds.</h3>
@@ -103,6 +104,44 @@
 
 <p align="center">
   <img src="assets/architecture/system-architecture.png" alt="AnomaEYE system architecture" width="100%">
+</p>
+
+<br>
+
+## 🔬 Research foundation: STAGE
+
+The detection backbone of AnomaEYE follows the approach of our research paper:
+
+> **STAGE: Splice-Supervised Temporal Anchoring for Generalization and Explainability in Video Anomaly Detection**
+> *Under review at* **Image and Vision Computing (IVC), Elsevier**
+
+STAGE studies **weakly supervised video anomaly detection** and the problem every real deployment faces: a model trained on one set of cameras has to work on new scenes, angles, lighting and video quality.
+
+**Key ideas in the paper**
+
+- **Latent Temporal Splicing:** anomaly-related latent temporal segments are spliced in during training to create additional learning signals and reduce the model's dependence on source-specific video context.
+- **Semantic guidance for donor selection:** semantic video features decide which segments are spliced together.
+- **Appearance, motion and semantic streams:** X3D-M for spatio-temporal appearance, RAFT-small for motion, InternVideo2-CLIP for semantics.
+- **Multiple Instance Learning** with temporal modelling for anomaly scoring and **temporal localisation** of when the event happens.
+- **Cross-dataset evaluation** for generalisation, on UCF-Crime, MSAD, XD-Violence and ShanghaiTech.
+
+**From paper to product: deployment adjustments**
+
+The live system keeps the STAGE approach and adapts it for real-time, multi-camera serving:
+
+| | STAGE paper | AnomaEYE deployment |
+|---|---|---|
+| Feature streams | X3D-M + RAFT-small + InternVideo2-CLIP | X3D-M + InternVideo2-CLIP (two frozen video encoders) |
+| Temporal model | MIL with temporal modelling on whole videos | Causal temporal transformer scoring every second over a live rolling window, so training on clips and serving live are the same computation |
+| Output | Anomaly scores and temporal localisation | Per-second anomaly probability, a coarse group (violence, weapon, fire, vehicle, theft, incident) and a fine crime class |
+| Robustness | Single model, cross-dataset evaluation | Ensemble of eight independently trained models, calibrated, with hysteresis and a per-camera adaptive baseline |
+| Decision | Benchmark scoring | Candidates are confirmed or vetoed by a vision-language verifier before any alert is sent |
+
+<p>
+  <img src="https://img.shields.io/badge/Dataset-UCF--Crime-334155?style=flat-square" alt="UCF-Crime">
+  <img src="https://img.shields.io/badge/Dataset-MSAD-334155?style=flat-square" alt="MSAD">
+  <img src="https://img.shields.io/badge/Dataset-XD--Violence-334155?style=flat-square" alt="XD-Violence">
+  <img src="https://img.shields.io/badge/Dataset-ShanghaiTech-334155?style=flat-square" alt="ShanghaiTech">
 </p>
 
 <br>
