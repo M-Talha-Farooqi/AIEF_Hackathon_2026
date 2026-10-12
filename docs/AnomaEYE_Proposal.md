@@ -3,18 +3,41 @@
 **Submission for:** [4th International AI Championship (AI Showdown), Artificial Intelligence Education Foundation](https://www.aiedu.org.pk/4th-international-ai-championship/)
 **Category:** AI in Urban Tech (smart-city infrastructure, mobility, and civic systems)
 **Keywords:** video anomaly detection, real-time CCTV surveillance, multi-agent incident response, Safe City, crime detection
-**Repository:** https://github.com/M-Talha-Farooqi/AIEF_Hackathon_2026
-**Demo video:** _[add YouTube unlisted link]_
+**Live product (full flow):** [www.anomaeye.com](https://www.anomaeye.com)
+**Pitch deck:** [View on Canva](https://canva.link/6gh1y52uxf0r5n4)
 
 ---
 
 ## Team
 
-| # | Name | Designation | Email | GitHub | LinkedIn |
-|---|---|---|---|---|---|
-| 1 | **M. Talha Farooqi** | AI Engineer (team lead) | [the.mtalhafarooqi@gmail.com](mailto:the.mtalhafarooqi@gmail.com) | [github.com/M-Talha-Farooqi](https://github.com/M-Talha-Farooqi) | [linkedin.com/in/m-talha-farooqi](https://www.linkedin.com/in/m-talha-farooqi) |
-| 2 | **Muhammad Husnain Aslam** | Backend Engineer | [mhusnainaslam2003@gmail.com](mailto:mhusnainaslam2003@gmail.com) | [github.com/heyhusn](https://github.com/heyhusn) | [linkedin.com/in/husnain-aslam-0a959a1a7](https://www.linkedin.com/in/husnain-aslam-0a959a1a7) |
-| 3 | **Chaudhary Shoaib Hamza** | Flutter Developer / Founder, Big Brains | [chaudharyshoaibhamza@gmail.com](mailto:chaudharyshoaibhamza@gmail.com) | [github.com/theshoaibhamza](https://github.com/theshoaibhamza) | [linkedin.com/in/shoaibhamza](https://www.linkedin.com/in/shoaibhamza) |
+<table>
+  <tr>
+    <td align="center" width="260" valign="top">
+      <img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/team/talha.jpg" width="140" alt="M. Talha Farooqi"><br><br>
+      <b>M. Talha Farooqi</b><br>
+      <sub>AI Engineer</sub><br><br>
+      <a href="https://github.com/M-Talha-Farooqi"><img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/icons/github.svg" width="28" alt="GitHub"></a>&nbsp;
+      <a href="https://www.linkedin.com/in/m-talha-farooqi"><img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/icons/linkedin.svg" width="28" alt="LinkedIn"></a>&nbsp;
+      <a href="mailto:the.mtalhafarooqi@gmail.com"><img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/icons/email.svg" width="28" alt="Email"></a>
+    </td>
+    <td align="center" width="260" valign="top">
+      <img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/team/husnain.jpg" width="140" alt="Muhammad Husnain Aslam"><br><br>
+      <b>Muhammad Husnain Aslam</b><br>
+      <sub>Backend Engineer</sub><br><br>
+      <a href="https://github.com/heyhusn"><img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/icons/github.svg" width="28" alt="GitHub"></a>&nbsp;
+      <a href="https://www.linkedin.com/in/husnain-aslam-0a959a1a7"><img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/icons/linkedin.svg" width="28" alt="LinkedIn"></a>&nbsp;
+      <a href="mailto:mhusnainaslam2003@gmail.com"><img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/icons/email.svg" width="28" alt="Email"></a>
+    </td>
+    <td align="center" width="260" valign="top">
+      <img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/team/shoaib.jpg" width="140" alt="Chaudhary Shoaib Hamza"><br><br>
+      <b>Chaudhary Shoaib Hamza</b><br>
+      <sub>Flutter Developer · Founder, Big Brains</sub><br><br>
+      <a href="https://github.com/theshoaibhamza"><img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/icons/github.svg" width="28" alt="GitHub"></a>&nbsp;
+      <a href="https://www.linkedin.com/in/shoaibhamza"><img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/icons/linkedin.svg" width="28" alt="LinkedIn"></a>&nbsp;
+      <a href="mailto:chaudharyshoaibhamza@gmail.com"><img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/icons/email.svg" width="28" alt="Email"></a>
+    </td>
+  </tr>
+</table>
 
 **Institution / programme:** _[University, degree programme, expected graduation 2026 — required for eligibility proof]_
 **Faculty supervisor:** _[Name, department — add if applicable]_
@@ -37,21 +60,7 @@ AnomaEYE turns passive CCTV recording into active, verified alerting. It watches
 
 ## 3. System architecture
 
-```mermaid
-flowchart LR
-  A[CCTV / RTSP streams] --> B[Frame sampler<br/>32 segments x 16 frames]
-  B --> C[ResNet-50 feature extractor<br/>frozen ImageNet weights]
-  C --> D[MIL anomaly scorer<br/>3-layer MLP, segment scores 0-1]
-  D -->|score above threshold| E[Verifier agent<br/>vision-language second look]
-  E -->|confirmed| F[Incident report agent<br/>summary + key frames]
-  F --> G[Escalation agent<br/>policy + human confirmation]
-  G --> H[Security staff<br/>Flutter app push alert]
-  G --> I[Supervisor<br/>Next.js dashboard]
-  G -->|severe and confirmed| J[Nearest police / Rescue 15<br/>dispatch map]
-  E -->|false alarm| K[(Audit log)]
-  F --> K
-  G --> K
-```
+<p align="center"><img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/architecture/system-architecture.png" alt="AnomaEYE system architecture" width="100%"></p>
 
 | Module / agent | Single responsibility | Inputs | Outputs | Tools |
 |---|---|---|---|---|
@@ -103,7 +112,7 @@ Training uses video-level labels only (weak supervision), so no frame-level anno
 
 ## 7. Prototype status (what works today)
 
-- [x] Weakly supervised anomaly scorer trained on UCF-Crime (code and weights in the model repository)
+- [x] Weakly supervised anomaly scorer trained on UCF-Crime
 - [x] Real-time inference pipeline over video streams
 - [x] Flutter mobile app for security staff: push alerts, clip playback, confirm / dismiss
 - [x] Next.js web dashboard for supervisors: live incidents, timeline, settings
@@ -115,7 +124,7 @@ Training uses video-level labels only (weak supervision), so no frame-level anno
 
 _Adjust the checkboxes above to match the exact state of the build at submission time._
 
-**Run the demo (under 5 minutes):** see the README in this repository.
+**See the full flow live:** [www.anomaeye.com](https://www.anomaeye.com) · **Pitch deck:** [View on Canva](https://canva.link/6gh1y52uxf0r5n4)
 
 ## 8. Real-world impact and deployment path
 
