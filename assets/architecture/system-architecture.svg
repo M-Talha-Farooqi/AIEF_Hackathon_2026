@@ -1,151 +1,153 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2200 1130" width="2200" height="1130" role="img" aria-label="AnomaEYE architecture overview: cameras at a site publish video to a cloud media server; a GPU service scores every stream and a vision-language verifier confirms candidates; the backend stores the event and evidence and alerts staff by app, SMS, email and an on-site siren.">
 <defs>
-<marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 z" fill="#1F2937"/></marker>
-<marker id="arrow-ink-rev" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M9 1 L1 5 L9 9 z" fill="#1F2937"/></marker>
-<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 z" fill="#0F766E"/></marker>
-<marker id="arrow-teal-rev" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M9 1 L1 5 L9 9 z" fill="#0F766E"/></marker>
-<marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 z" fill="#B45309"/></marker>
-<marker id="arrow-amber-rev" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M9 1 L1 5 L9 9 z" fill="#B45309"/></marker>
+<marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 z" fill="#1E293B"/></marker>
+<marker id="arrow-ink-rev" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M9 1 L1 5 L9 9 z" fill="#1E293B"/></marker>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 z" fill="#0D9488"/></marker>
+<marker id="arrow-teal-rev" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M9 1 L1 5 L9 9 z" fill="#0D9488"/></marker>
+<marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9 z" fill="#EA580C"/></marker>
+<marker id="arrow-amber-rev" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M9 1 L1 5 L9 9 z" fill="#EA580C"/></marker>
 </defs>
 <rect width="2200" height="1130" fill="#FFFFFF"/>
-<text x="48" y="64" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="32" fill="#0F172A" font-weight="700" text-anchor="start">AnomaEYE</text>
+<text x="48" y="64" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="32" fill="#0B1020" font-weight="700" text-anchor="start">AnomaEYE</text>
 <text x="226" y="64" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="32" fill="#334155" font-weight="400" text-anchor="start">system architecture</text>
-<text x="48" y="94" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#6B7280" font-weight="400" text-anchor="start">From a camera on site to a verified alert on a guard&#x27;s phone. The numbers 1 to 6 follow one detection.</text>
-<path d="M 1480 46 L 1536 46" fill="none" stroke="#0F766E" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
-<text x="1548" y="51" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#475569" font-weight="400" text-anchor="start">video</text>
-<path d="M 1630 46 L 1686 46" fill="none" stroke="#B45309" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-amber)"/>
-<text x="1698" y="51" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#475569" font-weight="400" text-anchor="start">detection and alert</text>
-<path d="M 1880 46 L 1936 46" fill="none" stroke="#1F2937" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
-<text x="1948" y="51" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#475569" font-weight="400" text-anchor="start">control</text>
-<path d="M 1480 80 L 1536 80" fill="none" stroke="#1F2937" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7" marker-end="url(#arrow-ink)"/>
-<text x="1548" y="85" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#475569" font-weight="400" text-anchor="start">dashed: the arrow&#x27;s tail makes the request (pull or poll)</text>
-<rect x="48" y="150" width="392" height="510" rx="16" fill="#F3F5F7" stroke="#C7CDD6" stroke-width="1.25"/>
-<text x="72" y="182" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" font-weight="600" text-anchor="start" letter-spacing="1.8">CUSTOMER SITE (PRIVATE NETWORK)</text>
-<rect x="500" y="150" width="920" height="510" rx="16" fill="#F1F6FB" stroke="#C7CDD6" stroke-width="1.25"/>
-<text x="524" y="182" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" font-weight="600" text-anchor="start" letter-spacing="1.8">CLOUD BACKEND ON GCP</text>
-<rect x="1480" y="150" width="672" height="510" rx="16" fill="#F3F8F3" stroke="#C7CDD6" stroke-width="1.25"/>
-<text x="1504" y="182" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" font-weight="600" text-anchor="start" letter-spacing="1.8">STAFF AND ADMINISTRATORS</text>
-<rect x="500" y="700" width="920" height="300" rx="16" fill="#F6F4FB" stroke="#C7CDD6" stroke-width="1.25"/>
-<text x="600" y="732" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" font-weight="600" text-anchor="start" letter-spacing="1.8">GPU MODEL DEPLOYMENT, CONNECTED OVER A PRIVATE VPN</text>
-<rect x="80" y="212" width="328" height="84" rx="10" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
-<text x="100" y="246" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#0F172A" font-weight="600" text-anchor="start">IP cameras</text>
-<text x="100" y="278.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">existing CCTV, RTSP on the local network</text>
-<rect x="80" y="356" width="328" height="100" rx="10" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
-<text x="100" y="390" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#0F172A" font-weight="600" text-anchor="start">Camera agent</text>
-<text x="100" y="422.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">small program on site; forwards video</text>
-<text x="100" y="442.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">to the cloud without re-encoding it</text>
-<rect x="80" y="500" width="328" height="100" rx="10" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
-<text x="100" y="534" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#0F172A" font-weight="600" text-anchor="start">On-site siren</text>
-<text x="100" y="566.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">ESP32 siren and a small agent that polls</text>
-<text x="100" y="586.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">the cloud, so no inbound port is opened</text>
-<path d="M 244 296 L 244 356" fill="none" stroke="#0F766E" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
-<text x="256" y="332" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#475569" font-weight="400" text-anchor="start" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">RTSP</text>
-<path d="M 408 400 L 540 400" fill="none" stroke="#0F766E" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
-<text x="474" y="388" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#475569" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">SRT / RTMP</text>
-<circle cx="474" cy="426" r="13" fill="#B45309"/>
+<text x="48" y="94" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15.5" fill="#111827" font-weight="400" text-anchor="start">From a camera on site to a verified alert on a guard&#x27;s phone. The numbers 1 to 6 follow one detection.</text>
+<path d="M 1480 46 L 1536 46" fill="none" stroke="#0D9488" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+<text x="1548" y="51" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#111827" font-weight="400" text-anchor="start">video</text>
+<path d="M 1630 46 L 1686 46" fill="none" stroke="#EA580C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-amber)"/>
+<text x="1698" y="51" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#111827" font-weight="400" text-anchor="start">detection and alert</text>
+<path d="M 1880 46 L 1936 46" fill="none" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
+<text x="1948" y="51" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#111827" font-weight="400" text-anchor="start">control</text>
+<path d="M 1480 80 L 1536 80" fill="none" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7" marker-end="url(#arrow-ink)"/>
+<text x="1548" y="85" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#111827" font-weight="400" text-anchor="start">dashed: the arrow&#x27;s tail makes the request (pull or poll)</text>
+<rect x="48" y="150" width="392" height="510" rx="16" fill="#EEF2F7" stroke="#475569" stroke-opacity="0.45" stroke-width="1.5"/>
+<text x="72" y="184" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#475569" font-weight="700" text-anchor="start" letter-spacing="1.8">CUSTOMER SITE (PRIVATE NETWORK)</text>
+<rect x="500" y="150" width="920" height="510" rx="16" fill="#E8F1FD" stroke="#1D4ED8" stroke-opacity="0.45" stroke-width="1.5"/>
+<text x="524" y="184" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#1D4ED8" font-weight="700" text-anchor="start" letter-spacing="1.8">CLOUD BACKEND ON GCP</text>
+<rect x="1480" y="150" width="672" height="510" rx="16" fill="#E9F7EE" stroke="#15803D" stroke-opacity="0.45" stroke-width="1.5"/>
+<text x="1504" y="184" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#15803D" font-weight="700" text-anchor="start" letter-spacing="1.8">STAFF AND ADMINISTRATORS</text>
+<rect x="500" y="700" width="920" height="300" rx="16" fill="#F0EBFB" stroke="#6D28D9" stroke-opacity="0.45" stroke-width="1.5"/>
+<text x="600" y="734" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#6D28D9" font-weight="700" text-anchor="start" letter-spacing="1.8">GPU MODEL DEPLOYMENT</text>
+<rect x="80" y="212" width="328" height="84" rx="10" fill="#FFFFFF" stroke="#475569" stroke-width="1.6"/>
+<text x="100" y="246" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0B1020" font-weight="700" text-anchor="start">IP cameras</text>
+<text x="100" y="279.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">existing CCTV, RTSP on the LAN</text>
+<rect x="80" y="356" width="328" height="100" rx="10" fill="#FFFFFF" stroke="#475569" stroke-width="1.6"/>
+<text x="100" y="390" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0B1020" font-weight="700" text-anchor="start">Camera agent</text>
+<text x="100" y="423.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">small program on site; forwards</text>
+<text x="100" y="444.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">video to the cloud, no re-encoding</text>
+<rect x="80" y="500" width="328" height="100" rx="10" fill="#FFFFFF" stroke="#475569" stroke-width="1.6"/>
+<text x="100" y="534" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0B1020" font-weight="700" text-anchor="start">On-site siren</text>
+<text x="100" y="567.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">ESP32 siren plus a small agent that</text>
+<text x="100" y="588.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">polls the cloud; nothing inbound</text>
+<path d="M 244 296 L 244 356" fill="none" stroke="#0D9488" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+<text x="256" y="332" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#111827" font-weight="500" text-anchor="start" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">RTSP</text>
+<path d="M 408 400 L 540 400" fill="none" stroke="#0D9488" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+<text x="474" y="388" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#111827" font-weight="500" text-anchor="middle" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">SRT / RTMP</text>
+<circle cx="474" cy="426" r="13" fill="#EA580C"/>
 <text x="474" y="431" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">1</text>
-<rect x="540" y="212" width="360" height="196" rx="10" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
-<text x="560" y="246" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#0F172A" font-weight="600" text-anchor="start">Media server</text>
-<text x="560" y="266" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" font-weight="400" text-anchor="start">MediaMTX</text>
-<text x="560" y="298.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">receives every camera&#x27;s video</text>
-<text x="560" y="318.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">serves live view to the apps</text>
-<text x="560" y="338.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">keeps a 5-minute rolling buffer only;</text>
-<text x="560" y="358.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">nothing is archived without an event</text>
-<rect x="960" y="212" width="420" height="196" rx="10" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
-<text x="980" y="246" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#0F172A" font-weight="600" text-anchor="start">Backend API</text>
-<text x="980" y="266" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" font-weight="400" text-anchor="start">FastAPI</text>
-<text x="980" y="298.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">one organisation per tenant, role-based access</text>
-<text x="980" y="318.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">stores the event, cuts the evidence clip</text>
-<text x="980" y="338.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">sends alerts, pushes live updates to the apps</text>
-<text x="980" y="358.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">records every action in an audit trail</text>
-<path d="M 900 300 L 960 300" fill="none" stroke="#1F2937" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ink)" marker-start="url(#arrow-ink-rev)"/>
-<text x="930" y="288" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#475569" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">manage</text>
-<rect x="600" y="470" width="170" height="116" rx="10" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
-<text x="620" y="504" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#0F172A" font-weight="600" text-anchor="start">Firebase Auth</text>
-<text x="620" y="535.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">sign-in with email, Google,</text>
-<text x="620" y="554.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">Microsoft or Yahoo</text>
-<rect x="780" y="470" width="170" height="116" rx="10" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
-<text x="800" y="504" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#0F172A" font-weight="600" text-anchor="start">Firestore</text>
-<text x="800" y="535.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">cameras, events, members,</text>
-<text x="800" y="554.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">settings, audit, per tenant</text>
-<rect x="1000" y="470" width="170" height="116" rx="10" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
-<text x="1020" y="504" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#0F172A" font-weight="600" text-anchor="start">Cloud Storage</text>
-<text x="1020" y="535.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">evidence clips, private,</text>
-<text x="1020" y="554.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">30-minute signed links</text>
-<path d="M 685 440 L 1085 440" fill="none" stroke="#1F2937" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M 685 440 L 685 470" fill="none" stroke="#1F2937" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
-<path d="M 865 440 L 865 470" fill="none" stroke="#1F2937" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
-<path d="M 1085 408 L 1085 470" fill="none" stroke="#1F2937" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ink)" marker-start="url(#arrow-ink-rev)"/>
-<text x="700" y="432" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#475569" font-weight="400" text-anchor="start" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">identity, data, evidence</text>
-<path d="M 880 212 L 880 136 L 2094 136 L 2094 212" fill="none" stroke="#0F766E" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
-<path d="M 1780 136 L 1780 212" fill="none" stroke="#0F766E" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
-<text x="900" y="128" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#475569" font-weight="400" text-anchor="start" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">live video to viewers (WebRTC, HLS fallback)</text>
-<path d="M 1380 300 L 1512 300" fill="none" stroke="#B45309" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-amber)"/>
-<text x="1446" y="288" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#B45309" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">push, SMS, email</text>
-<circle cx="1446" cy="322" r="13" fill="#B45309"/>
+<rect x="540" y="212" width="360" height="196" rx="10" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="1.6"/>
+<text x="560" y="246" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0B1020" font-weight="700" text-anchor="start">Media server</text>
+<text x="560" y="266" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#374151" font-weight="400" text-anchor="start">MediaMTX</text>
+<text x="560" y="299.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">receives every camera&#x27;s video</text>
+<text x="560" y="320.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">serves live view to the apps</text>
+<text x="560" y="341.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">keeps a 5-minute rolling buffer only;</text>
+<text x="560" y="362.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">nothing is archived without an event</text>
+<rect x="960" y="212" width="420" height="196" rx="10" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="1.6"/>
+<text x="980" y="246" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0B1020" font-weight="700" text-anchor="start">Backend API</text>
+<text x="980" y="266" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#374151" font-weight="400" text-anchor="start">FastAPI</text>
+<text x="980" y="299.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">one organisation per tenant, role-based access</text>
+<text x="980" y="320.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">stores the event, cuts the evidence clip</text>
+<text x="980" y="341.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">sends alerts, pushes live updates to the apps</text>
+<text x="980" y="362.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">records every action in an audit trail</text>
+<path d="M 900 300 L 960 300" fill="none" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ink)" marker-start="url(#arrow-ink-rev)"/>
+<text x="930" y="288" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#111827" font-weight="500" text-anchor="middle" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">manage</text>
+<rect x="600" y="470" width="190" height="116" rx="10" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="1.6"/>
+<text x="620" y="504" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0B1020" font-weight="700" text-anchor="start">Firebase Auth</text>
+<text x="620" y="536.5" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#111827" font-weight="400" text-anchor="start">sign-in with email,</text>
+<text x="620" y="557.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#111827" font-weight="400" text-anchor="start">Google, Microsoft</text>
+<text x="620" y="577.5" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#111827" font-weight="400" text-anchor="start">or Yahoo</text>
+<rect x="810" y="470" width="190" height="116" rx="10" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="1.6"/>
+<text x="830" y="504" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0B1020" font-weight="700" text-anchor="start">Firestore</text>
+<text x="830" y="536.5" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#111827" font-weight="400" text-anchor="start">cameras, events,</text>
+<text x="830" y="557.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#111827" font-weight="400" text-anchor="start">members, settings,</text>
+<text x="830" y="577.5" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#111827" font-weight="400" text-anchor="start">audit, per tenant</text>
+<rect x="1020" y="470" width="190" height="116" rx="10" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="1.6"/>
+<text x="1040" y="504" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0B1020" font-weight="700" text-anchor="start">Cloud Storage</text>
+<text x="1040" y="536.5" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#111827" font-weight="400" text-anchor="start">evidence clips in a</text>
+<text x="1040" y="557.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#111827" font-weight="400" text-anchor="start">private bucket, shared</text>
+<text x="1040" y="577.5" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#111827" font-weight="400" text-anchor="start">by 30-minute links</text>
+<path d="M 695 440 L 1115 440" fill="none" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 695 440 L 695 470" fill="none" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
+<path d="M 905 440 L 905 470" fill="none" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
+<path d="M 1115 408 L 1115 470" fill="none" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ink)" marker-start="url(#arrow-ink-rev)"/>
+<text x="710" y="432" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#111827" font-weight="500" text-anchor="start" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">identity, data, evidence</text>
+<path d="M 880 212 L 880 136 L 2094 136 L 2094 212" fill="none" stroke="#0D9488" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+<path d="M 1780 136 L 1780 212" fill="none" stroke="#0D9488" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+<text x="900" y="128" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#111827" font-weight="500" text-anchor="start" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">live video to viewers (WebRTC, HLS fallback)</text>
+<path d="M 1380 300 L 1512 300" fill="none" stroke="#EA580C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-amber)"/>
+<text x="1446" y="288" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#EA580C" font-weight="500" text-anchor="middle" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">push, SMS, email</text>
+<circle cx="1446" cy="322" r="13" fill="#EA580C"/>
 <text x="1446" y="327" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">6</text>
-<path d="M 1380 352 L 1450 352 L 1450 432 L 1984 432" fill="none" stroke="#1F2937" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-start="url(#arrow-ink-rev)"/>
-<path d="M 1664 432 L 1664 392" fill="none" stroke="#1F2937" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
-<path d="M 1984 432 L 1984 392" fill="none" stroke="#1F2937" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
-<text x="1470" y="456" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#475569" font-weight="400" text-anchor="start" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">JSON API and live updates over WebSocket</text>
-<path d="M 1240 408 L 1240 630 L 572 630 A 12 12 0 0 0 548 630 L 470 630 L 470 550 L 408 550" fill="none" stroke="#B45309" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7" marker-end="url(#arrow-amber)"/>
-<text x="640" y="622" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#B45309" font-weight="400" text-anchor="start" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">siren command, collected by the site agent</text>
-<rect x="1512" y="212" width="304" height="180" rx="10" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
-<text x="1532" y="246" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#0F172A" font-weight="600" text-anchor="start">Mobile app</text>
-<text x="1532" y="266" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" font-weight="400" text-anchor="start">Flutter, Android and iOS</text>
-<text x="1532" y="298.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">live cameras, alerts with clips</text>
-<text x="1532" y="318.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">acknowledge, escalate, resolve</text>
-<text x="1532" y="338.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">push and SMS on the same phone</text>
-<rect x="1848" y="212" width="272" height="180" rx="10" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
-<text x="1868" y="246" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#0F172A" font-weight="600" text-anchor="start">Web dashboard</text>
-<text x="1868" y="266" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" font-weight="400" text-anchor="start">React, on Vercel</text>
-<text x="1868" y="298.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">staff, cameras, events, audit</text>
-<text x="1868" y="318.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">alert settings, device approval</text>
-<text x="1868" y="338.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">live incident feed</text>
-<text x="1512" y="520" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" font-weight="400" text-anchor="start">Operators see the cameras assigned to them; admins manage their own</text>
-<text x="1512" y="540" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" font-weight="400" text-anchor="start">organisation; nobody sees another organisation&#x27;s cameras or events.</text>
-<text x="1512" y="580" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" font-weight="400" text-anchor="start">A siren at the site sounds for severe events (step 6, lower left).</text>
-<rect x="540" y="760" width="260" height="200" rx="10" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
-<text x="560" y="794" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#0F172A" font-weight="600" text-anchor="start">Scene gate</text>
-<text x="560" y="826.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">scores every second of video</text>
-<text x="560" y="846.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">from every camera: two video</text>
-<text x="560" y="866.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">encoders and a temporal model</text>
-<text x="560" y="886.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">trained on CCTV crime datasets</text>
-<text x="560" y="906.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">proposes candidate events</text>
-<rect x="830" y="760" width="260" height="200" rx="10" fill="#FFFFFF" stroke="#B45309" stroke-width="1.6"/>
-<text x="850" y="794" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#0F172A" font-weight="600" text-anchor="start">Verifier</text>
-<text x="850" y="826.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">a vision-language model looks</text>
-<text x="850" y="846.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">at 8 frames of each candidate</text>
-<text x="850" y="866.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">confirms or vetoes it and writes</text>
-<text x="850" y="886.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">a one-sentence description</text>
-<rect x="1120" y="760" width="260" height="200" rx="10" fill="#FFFFFF" stroke="#B45309" stroke-width="1.6"/>
-<text x="1140" y="794" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#0F172A" font-weight="600" text-anchor="start">Service interface</text>
-<text x="1140" y="826.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">delivers verified detections</text>
-<text x="1140" y="846.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">with a keyframe and clip;</text>
-<text x="1140" y="866.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">retries if the backend is down</text>
-<text x="1140" y="886.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">accepts camera registrations</text>
-<text x="1140" y="906.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569" font-weight="400" text-anchor="start">and operator feedback</text>
-<path d="M 800 860 L 830 860" fill="none" stroke="#B45309" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M 1090 860 L 1120 860" fill="none" stroke="#B45309" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-amber)"/>
-<circle cx="815" cy="860" r="13" fill="#B45309"/>
+<path d="M 1380 352 L 1450 352 L 1450 432 L 1984 432" fill="none" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-start="url(#arrow-ink-rev)"/>
+<path d="M 1664 432 L 1664 392" fill="none" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
+<path d="M 1984 432 L 1984 392" fill="none" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
+<text x="1717" y="458" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#111827" font-weight="500" text-anchor="middle" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">JSON API and live updates over WebSocket</text>
+<path d="M 1240 408 L 1240 630 L 572 630 A 12 12 0 0 0 548 630 L 470 630 L 470 550 L 408 550" fill="none" stroke="#EA580C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7" marker-end="url(#arrow-amber)"/>
+<text x="640" y="622" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#EA580C" font-weight="500" text-anchor="start" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">siren command, collected by the site agent</text>
+<rect x="1512" y="212" width="304" height="180" rx="10" fill="#FFFFFF" stroke="#15803D" stroke-width="1.6"/>
+<text x="1532" y="246" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0B1020" font-weight="700" text-anchor="start">Mobile app</text>
+<text x="1532" y="266" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#374151" font-weight="400" text-anchor="start">Flutter, Android and iOS</text>
+<text x="1532" y="299.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">live cameras, alerts with clips</text>
+<text x="1532" y="320.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">acknowledge, escalate, resolve</text>
+<text x="1532" y="341.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">push and SMS on the same phone</text>
+<rect x="1848" y="212" width="272" height="180" rx="10" fill="#FFFFFF" stroke="#15803D" stroke-width="1.6"/>
+<text x="1868" y="246" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0B1020" font-weight="700" text-anchor="start">Web dashboard</text>
+<text x="1868" y="266" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#374151" font-weight="400" text-anchor="start">React, on Vercel</text>
+<text x="1868" y="299.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">staff, cameras, events, audit</text>
+<text x="1868" y="320.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">alert settings, device approval</text>
+<text x="1868" y="341.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">live incident feed</text>
+<text x="1512" y="520" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#111827" font-weight="400" text-anchor="start">Operators see the cameras assigned to them; admins manage their</text>
+<text x="1512" y="542" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#111827" font-weight="400" text-anchor="start">own organisation; nobody sees another organisation&#x27;s cameras or events.</text>
+<text x="1512" y="584" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#111827" font-weight="400" text-anchor="start">A siren at the site sounds for severe events (step 6, lower left).</text>
+<rect x="540" y="760" width="260" height="200" rx="10" fill="#FFFFFF" stroke="#6D28D9" stroke-width="1.6"/>
+<text x="560" y="794" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0B1020" font-weight="700" text-anchor="start">Scene gate</text>
+<text x="560" y="827.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">scores every second of video</text>
+<text x="560" y="848.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">from every camera: two video</text>
+<text x="560" y="869.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">encoders and a temporal model</text>
+<text x="560" y="890.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">trained on CCTV crime data</text>
+<text x="560" y="911.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">proposes candidate events</text>
+<rect x="830" y="760" width="260" height="200" rx="10" fill="#FFFFFF" stroke="#EA580C" stroke-width="1.6"/>
+<text x="850" y="794" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0B1020" font-weight="700" text-anchor="start">Verifier</text>
+<text x="850" y="827.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">a vision-language model looks</text>
+<text x="850" y="848.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">at 8 frames of each candidate</text>
+<text x="850" y="869.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">confirms or vetoes it, writes</text>
+<text x="850" y="890.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">a one-sentence description</text>
+<rect x="1120" y="760" width="260" height="200" rx="10" fill="#FFFFFF" stroke="#EA580C" stroke-width="1.6"/>
+<text x="1140" y="794" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#0B1020" font-weight="700" text-anchor="start">Service interface</text>
+<text x="1140" y="827.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">delivers verified detections</text>
+<text x="1140" y="848.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">with a keyframe and clip;</text>
+<text x="1140" y="869.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">retries after backend outages</text>
+<text x="1140" y="890.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">accepts camera registrations</text>
+<text x="1140" y="911.0" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" fill="#111827" font-weight="400" text-anchor="start">and operator feedback</text>
+<path d="M 800 860 L 830 860" fill="none" stroke="#EA580C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 1090 860 L 1120 860" fill="none" stroke="#EA580C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-amber)"/>
+<circle cx="815" cy="860" r="13" fill="#EA580C"/>
 <text x="815" y="865" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">3</text>
-<text x="540" y="984" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" font-weight="400" text-anchor="start">Cheap always-on scoring; expensive verification only on candidates. One 16 GB GPU serves roughly 15 to 20 cameras.</text>
-<path d="M 560 760 L 560 408" fill="none" stroke="#0F766E" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7" marker-end="url(#arrow-teal)"/>
-<text x="580" y="684" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#475569" font-weight="400" text-anchor="start" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">GPU pulls each registered camera&#x27;s video</text>
-<circle cx="560" cy="680" r="13" fill="#B45309"/>
+<path d="M 560 760 L 560 408" fill="none" stroke="#0D9488" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7" marker-end="url(#arrow-teal)"/>
+<text x="580" y="684" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#111827" font-weight="500" text-anchor="start" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">GPU pulls each registered camera&#x27;s video</text>
+<circle cx="560" cy="680" r="13" fill="#EA580C"/>
 <text x="560" y="685" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">2</text>
-<path d="M 1290 408 L 1290 760" fill="none" stroke="#1F2937" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
-<text x="1228" y="600" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#475569" font-weight="400" text-anchor="end" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">register cameras,</text>
-<text x="1228" y="618" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#475569" font-weight="400" text-anchor="end" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">forward operator feedback</text>
-<path d="M 1340 760 L 1340 408" fill="none" stroke="#B45309" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-amber)"/>
-<text x="1354" y="676" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#B45309" font-weight="600" text-anchor="start" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">verified detection</text>
-<text x="1354" y="694" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#B45309" font-weight="400" text-anchor="start" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">with keyframe and clip</text>
-<circle cx="1340" cy="680" r="13" fill="#B45309"/>
+<path d="M 1290 408 L 1290 760" fill="none" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
+<text x="1228" y="600" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#111827" font-weight="500" text-anchor="end" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">register cameras,</text>
+<text x="1228" y="618" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#111827" font-weight="500" text-anchor="end" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">forward operator feedback</text>
+<path d="M 1340 760 L 1340 408" fill="none" stroke="#EA580C" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-amber)"/>
+<text x="1354" y="676" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#EA580C" font-weight="600" text-anchor="start" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">verified detection</text>
+<text x="1354" y="694" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" fill="#EA580C" font-weight="500" text-anchor="start" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">with keyframe and clip</text>
+<circle cx="1340" cy="680" r="13" fill="#EA580C"/>
 <text x="1340" y="685" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">4</text>
-<circle cx="1400" cy="426" r="13" fill="#B45309"/>
+<circle cx="1400" cy="426" r="13" fill="#EA580C"/>
 <text x="1400" y="431" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">5</text>
-<text x="48" y="1040" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#475569" font-weight="400" text-anchor="start">1  camera agent sends video   ·   2  GPU pulls the stream   ·   3  gate proposes, verifier confirms   ·   4  verified detection delivered   ·   5  event stored, clip cut from the buffer, alerts sent   ·   6  staff alerted on phone and dashboard; siren sounds on site</text>
-<text x="48" y="1068" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" font-weight="400" text-anchor="start">Releases: git push, Cloud Build, then a blue-green swap of the API on the VM; the media server is never restarted, so a release never drops a live stream.</text>
-<text x="48" y="1090" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" font-weight="400" text-anchor="start">Privacy: no face recognition; video is kept only around a confirmed event; evidence is private and shared by short-lived links; every verdict and human action is logged.</text>
-<text x="2152" y="1090" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#6B7280" font-weight="400" text-anchor="end">As deployed, October 2026</text>
+<text x="48" y="1040" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#111827" font-weight="400" text-anchor="start">1  camera agent sends video   ·   2  GPU pulls the stream   ·   3  gate proposes, verifier confirms   ·   4  verified detection delivered   ·   5  event stored, clip cut from the buffer, alerts sent   ·   6  staff alerted on phone and dashboard; siren sounds on site</text>
+<text x="48" y="1068" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#111827" font-weight="400" text-anchor="start">Releases: git push, Cloud Build, then a blue-green swap of the API on the VM; the media server is never restarted, so a release never drops a live stream.</text>
+<text x="48" y="1090" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#111827" font-weight="400" text-anchor="start">Privacy: no face recognition; video is kept only around a confirmed event; evidence is private and shared by short-lived links; every verdict and human action is logged.</text>
+<text x="2152" y="1090" font-family="system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" fill="#374151" font-weight="400" text-anchor="end">As deployed, October 2026</text>
 </svg>
