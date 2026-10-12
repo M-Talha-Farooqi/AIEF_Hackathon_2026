@@ -112,8 +112,17 @@
 
 The detection backbone of AnomaEYE follows the approach of our research paper:
 
-> **STAGE: Splice-Supervised Temporal Anchoring for Generalization and Explainability in Video Anomaly Detection**
-> *Under review at* **Image and Vision Computing (IVC), Elsevier**
+<table>
+  <tr>
+    <td width="96" align="center" valign="middle">
+      <img src="assets/icons/elsevier.svg" width="80" alt="Elsevier">
+    </td>
+    <td valign="middle">
+      <b>STAGE: Splice-Supervised Temporal Anchoring for Generalization and Explainability in Video Anomaly Detection</b><br>
+      <sub>Under review at <b>Image and Vision Computing (IVC)</b>, Elsevier</sub>
+    </td>
+  </tr>
+</table>
 
 STAGE studies **weakly supervised video anomaly detection** and the problem every real deployment faces: a model trained on one set of cameras has to work on new scenes, angles, lighting and video quality.
 
