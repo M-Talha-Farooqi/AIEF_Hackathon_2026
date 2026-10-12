@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.anomaeye.com"><img src="https://img.shields.io/badge/Live_Product-anomaeye.com-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit anomaeye.com"></a>
+  <a href="https://www.anomaeye.com"><img src="https://img.shields.io/badge/Landing_Page-anomaeye.com-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Product landing page: anomaeye.com"></a>
   &nbsp;
   <a href="https://canva.link/6gh1y52uxf0r5n4"><img src="https://img.shields.io/badge/Pitch_Deck-Canva-8B5CF6?style=for-the-badge&logo=canva&logoColor=white" alt="Open the pitch deck"></a>
   &nbsp;
@@ -25,7 +25,7 @@
 
 **AnomaEYE** turns passive CCTV recording into active, verified security. It watches live camera streams, flags crimes and anomalous events as they happen, has a vision-language verifier take a second look before anyone is disturbed, attaches a keyframe, a clip and a one-sentence description to every event, alerts guards on their phones by push and SMS, sounds a siren on site for severe cases, and keeps supervisors in the loop on a live dashboard with a full audit trail of every alert and every human action.
 
-> **See the full flow live at [www.anomaeye.com](https://www.anomaeye.com)**
+> **Product landing page, with the full flow: [www.anomaeye.com](https://www.anomaeye.com)**
 
 <br>
 
@@ -209,6 +209,11 @@ The live system keeps the STAGE approach and adapts it for real-time, multi-came
   </tr>
 </table>
 
+<p align="center">
+  <sub><b>University of Management and Technology (UMT)</b> · BS Software Engineering · Class of 2026<br>
+  Project supervisor: <b>Dr. Syed Farooq Ali</b></sub>
+</p>
+
 <br>
 
 ## 🏆 AIEF 4th International AI Championship
@@ -218,7 +223,7 @@ AnomaEYE is competing in the **[AI Showdown, 4th International AI Championship](
 <br>
 
 <p align="center">
-  <a href="https://www.anomaeye.com"><img src="assets/icons/website.svg" width="34" alt="Website"></a>&nbsp;&nbsp;
+  <a href="https://www.anomaeye.com"><img src="assets/icons/website.svg" width="34" alt="Product landing page"></a>&nbsp;&nbsp;
   <a href="https://canva.link/6gh1y52uxf0r5n4"><img src="https://img.shields.io/badge/Pitch_Deck-8B5CF6?style=flat-square&logo=canva&logoColor=white" height="34" alt="Pitch deck"></a>
   <br><br>
   <sub>Built in Lahore, Pakistan 🇵🇰 · © 2026 Team AnomaEYE</sub>
