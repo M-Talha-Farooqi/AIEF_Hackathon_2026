@@ -13,7 +13,7 @@
 <table>
   <tr>
     <td align="center" width="260" valign="top">
-      <img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/team/talha.jpg" width="140" alt="M. Talha Farooqi"><br><br>
+      <img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/team/talha.png" width="140" alt="M. Talha Farooqi"><br><br>
       <b>M. Talha Farooqi</b><br>
       <sub>AI Engineer</sub><br><br>
       <a href="https://github.com/M-Talha-Farooqi"><img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/icons/github.svg" width="28" alt="GitHub"></a>&nbsp;
@@ -21,7 +21,7 @@
       <a href="mailto:the.mtalhafarooqi@gmail.com"><img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/icons/email.svg" width="28" alt="Email"></a>
     </td>
     <td align="center" width="260" valign="top">
-      <img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/team/husnain.jpg" width="140" alt="Muhammad Husnain Aslam"><br><br>
+      <img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/team/husnain.png" width="140" alt="Muhammad Husnain Aslam"><br><br>
       <b>Muhammad Husnain Aslam</b><br>
       <sub>Backend Engineer</sub><br><br>
       <a href="https://github.com/heyhusn"><img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/icons/github.svg" width="28" alt="GitHub"></a>&nbsp;
@@ -29,7 +29,7 @@
       <a href="mailto:mhusnainaslam2003@gmail.com"><img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/icons/email.svg" width="28" alt="Email"></a>
     </td>
     <td align="center" width="260" valign="top">
-      <img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/team/shoaib.jpg" width="140" alt="Chaudhary Shoaib Hamza"><br><br>
+      <img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/team/shoaib.png" width="140" alt="Chaudhary Shoaib Hamza"><br><br>
       <b>Chaudhary Shoaib Hamza</b><br>
       <sub>Flutter Developer · Founder, Big Brains</sub><br><br>
       <a href="https://github.com/theshoaibhamza"><img src="https://raw.githubusercontent.com/M-Talha-Farooqi/AIEF_Hackathon_2026/main/assets/icons/github.svg" width="28" alt="GitHub"></a>&nbsp;

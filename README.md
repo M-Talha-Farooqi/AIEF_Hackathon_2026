@@ -133,7 +133,7 @@
 <table align="center">
   <tr>
     <td align="center" width="260" valign="top">
-      <img src="assets/team/talha.jpg" width="150" alt="M. Talha Farooqi"><br><br>
+      <img src="assets/team/talha.png" width="150" alt="M. Talha Farooqi"><br><br>
       <b>M. Talha Farooqi</b><br>
       <sub>AI Engineer</sub><br><br>
       <a href="https://github.com/M-Talha-Farooqi"><img src="assets/icons/github.svg" width="30" alt="GitHub"></a>&nbsp;
@@ -141,7 +141,7 @@
       <a href="mailto:the.mtalhafarooqi@gmail.com"><img src="assets/icons/email.svg" width="30" alt="Email"></a>
     </td>
     <td align="center" width="260" valign="top">
-      <img src="assets/team/husnain.jpg" width="150" alt="Muhammad Husnain Aslam"><br><br>
+      <img src="assets/team/husnain.png" width="150" alt="Muhammad Husnain Aslam"><br><br>
       <b>Muhammad Husnain Aslam</b><br>
       <sub>Backend Engineer</sub><br><br>
       <a href="https://github.com/heyhusn"><img src="assets/icons/github.svg" width="30" alt="GitHub"></a>&nbsp;
@@ -149,7 +149,7 @@
       <a href="mailto:mhusnainaslam2003@gmail.com"><img src="assets/icons/email.svg" width="30" alt="Email"></a>
     </td>
     <td align="center" width="260" valign="top">
-      <img src="assets/team/shoaib.jpg" width="150" alt="Chaudhary Shoaib Hamza"><br><br>
+      <img src="assets/team/shoaib.png" width="150" alt="Chaudhary Shoaib Hamza"><br><br>
       <b>Chaudhary Shoaib Hamza</b><br>
       <sub>Flutter Developer · Founder, Big Brains</sub><br><br>
       <a href="https://github.com/theshoaibhamza"><img src="assets/icons/github.svg" width="30" alt="GitHub"></a>&nbsp;
