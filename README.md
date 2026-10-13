@@ -8,6 +8,8 @@
   <a href="https://canva.link/6gh1y52uxf0r5n4"><img src="https://img.shields.io/badge/Pitch_Deck-Canva-8B5CF6?style=for-the-badge&logo=canva&logoColor=white" alt="Open the pitch deck"></a>
   &nbsp;
   <a href="docs/AnomaEYE_Proposal.md"><img src="https://img.shields.io/badge/Proposal-Read-10B981?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Read the proposal"></a>
+  &nbsp;
+  <a href="docs/BACKEND_ARCHITECTURE.md"><img src="https://img.shields.io/badge/Backend_Spec-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="Read Backend Architecture Specification"></a>
 </p>
 
 <p align="center">
@@ -105,6 +107,10 @@
 <p align="center">
   <img src="assets/architecture/system-architecture.png" alt="AnomaEYE system architecture" width="100%">
 </p>
+
+> 📘 **Detailed Specifications & Technical Docs:**
+> - [Project Proposal & Research Design (`AnomaEYE_Proposal.md`)](docs/AnomaEYE_Proposal.md)
+> - [Backend Architecture & API Specification (`BACKEND_ARCHITECTURE.md`)](docs/BACKEND_ARCHITECTURE.md) (FastAPI, Incident Pipeline & Multi-Channel Alert Engine)
 
 <br>
 
