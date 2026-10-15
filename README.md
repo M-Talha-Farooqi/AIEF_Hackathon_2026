@@ -91,14 +91,14 @@
 
 ## 🔄 How it works
 
-| Step | What happens |
-|:---:|---|
-| **1** | A small agent on site forwards each camera's stream to the cloud media server; the GPU service pulls it from there |
-| **2** | The **scene gate** scores every second of every camera and proposes candidate events |
+| Step  | What happens                                                                                                                                 |
+| :---: | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1** | A small agent on site forwards each camera's stream to the cloud media server; the GPU service pulls it from there                           |
+| **2** | The **scene gate** scores every second of every camera and proposes candidate events                                                         |
 | **3** | The **verifier**, a vision-language model, looks at 8 frames of each candidate, confirms or vetoes it, and writes a one-sentence description |
 | **4** | Confirmed events reach the backend with a keyframe and clip; the backend cuts the evidence clip from its rolling buffer and stores the event |
-| **5** | Staff are alerted by push, SMS and email, and a siren sounds on site for severe events; the apps update live |
-| **6** | Every verdict and every human action (acknowledge, escalate, resolve) is written to an append-only audit log per organisation |
+| **5** | Staff are alerted by push, SMS and email, and a siren sounds on site for severe events; the apps update live                                 |
+| **6** | Every verdict and every human action (acknowledge, escalate, resolve) is written to an append-only audit log per organisation                |
 
 <br>
 
@@ -109,6 +109,7 @@
 </p>
 
 > 📘 **Detailed Specifications & Technical Docs:**
+>
 > - [Project Proposal & Research Design (`AnomaEYE_Proposal.md`)](docs/AnomaEYE_Proposal.md)
 > - [Backend Architecture & API Specification (`BACKEND_ARCHITECTURE.md`)](docs/BACKEND_ARCHITECTURE.md) (FastAPI, Incident Pipeline & Multi-Channel Alert Engine)
 
@@ -144,13 +145,13 @@ STAGE studies **weakly supervised video anomaly detection** and the problem ever
 
 The live system keeps the STAGE approach and adapts it for real-time, multi-camera serving:
 
-| | STAGE paper | AnomaEYE deployment |
-|---|---|---|
-| Feature streams | X3D-M + RAFT-small + InternVideo2-CLIP | X3D-M + InternVideo2-CLIP (two frozen video encoders) |
-| Temporal model | MIL with temporal modelling on whole videos | Causal temporal transformer scoring every second over a live rolling window, so training on clips and serving live are the same computation |
-| Output | Anomaly scores and temporal localisation | Per-second anomaly probability, a coarse group (violence, weapon, fire, vehicle, theft, incident) and a fine crime class |
-| Robustness | Single model, cross-dataset evaluation | Ensemble of eight independently trained models, calibrated, with hysteresis and a per-camera adaptive baseline |
-| Decision | Benchmark scoring | Candidates are confirmed or vetoed by a vision-language verifier before any alert is sent |
+|                 | STAGE paper                                 | AnomaEYE deployment                                                                                                                         |
+| --------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Feature streams | X3D-M + RAFT-small + InternVideo2-CLIP      | X3D-M + InternVideo2-CLIP (two frozen video encoders)                                                                                       |
+| Temporal model  | MIL with temporal modelling on whole videos | Causal temporal transformer scoring every second over a live rolling window, so training on clips and serving live are the same computation |
+| Output          | Anomaly scores and temporal localisation    | Per-second anomaly probability, a coarse group (violence, weapon, fire, vehicle, theft, incident) and a fine crime class                    |
+| Robustness      | Single model, cross-dataset evaluation      | Ensemble of eight independently trained models, calibrated, with hysteresis and a per-camera adaptive baseline                              |
+| Decision        | Benchmark scoring                           | Candidates are confirmed or vetoed by a vision-language verifier before any alert is sent                                                   |
 
 <p>
   <img src="https://img.shields.io/badge/Dataset-UCF--Crime-334155?style=flat-square" alt="UCF-Crime">
@@ -234,3 +235,5 @@ AnomaEYE is competing in the **[AI Showdown, 4th International AI Championship](
   <br><br>
   <sub>Built in Lahore, Pakistan 🇵🇰 · © 2026 Team AnomaEYE</sub>
 </p>
+
+// Shoaib Hamza
